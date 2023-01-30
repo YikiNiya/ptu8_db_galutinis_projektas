@@ -21,7 +21,6 @@ def add_new_player():
     add_username = input("Username: ")
     add_level = input("Level: ")
     new_player = Game(username=add_username, level=add_level)
-
     list_all_races()
     race = session.query(Race).filter_by(id=int(input("Enter race ID: "))).one()
     race.games.append(new_player)
