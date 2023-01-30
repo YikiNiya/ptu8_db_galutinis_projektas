@@ -1,0 +1,1 @@
+# ptu8_db_galutinis_projektas
